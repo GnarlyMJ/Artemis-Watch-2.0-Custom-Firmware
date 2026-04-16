@@ -83,25 +83,24 @@ inline static ThemeStruct createTheme(Theme theme){
 			break;
 		}
 		case Theme::Theme2:{
-			data.primaryColor = lv_color_make(255, 38, 116);
+			data.primaryColor = lv_color_make(255, 0, 0);
 			data.secondaryColor = lv_color_make(0, 0, 0);
-			data.highlightColor = lv_color_make(255, 38, 116);
-			data.dateColor = lv_color_make(255, 209, 0);
+			data.highlightColor = lv_color_make(255, 0, 0);
+			data.dateColor = lv_color_make(255, 0, 0);
 			data.opacity = LV_OPA_100;
-			data.sliderConfig.start = 108;
-			data.sliderConfig.end = 20;
-			data.sliderConfig.y = 0;
-			data.sliderConfig.neverHide = true;
-			data.sliderY = 102;
-			data.clockY = -20;
-			data.batteryX = 22;
-			data.batteryY = 10;
-			data.phoneX = 42;
-			data.phoneY = -48;
-			data.notifData.y = 17;
-			data.specialPhone = true;
-			data.dateY = 2;
-			data.notifData.maxNotifs = 6;
+			data.sliderConfig.start = 6;
+			data.sliderConfig.end = 122;
+			data.sliderConfig.y = 3;
+			data.sliderY = 111;
+			data.clockY = -14;
+			data.batteryX = 4;
+			data.batteryY = 4;
+			data.phoneX = 56;
+			data.phoneY = -57;
+			data.notifData.y = 32;
+			data.notifData.gapPad = 3;
+			data.dateY = 14;
+			data.notifData.maxNotifs = 10;
 
 			break;
 		}
